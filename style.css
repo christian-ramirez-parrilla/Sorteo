@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #252525;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.titulo h1{
+    color:  #FFFFFF ;
+}
+.herramientas{
+    width: 40%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#introduceNombre{
+    width: 50%;
+    padding: 8px;
+}
+#anadir{
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 40px;
+    background-color: rgba(128, 128, 128, 0.712);
+    cursor: pointer;
+}
+#anadir:hover{
+    background-color: #00C483;;
+}
+#sorteo{
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 40px;
+    background-color: rgba(128, 128, 128, 0.712);
+    cursor: pointer;
+}
+#sorteo:hover{
+    background-color: #00C483;;
+}
+.fa-plus{
+    font-size: 15px;
+}
+.fa-redo{
+    font-size: 15px;
+}
+#memoria{
+    width: 50%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100px; 
+}
+.casilla{
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+.casilla h2{
+    color: #FFFFFF ;
+}
+.casilla:hover{
+    background-color: #00C483;
+}
+.elegido{
+    background-color: #00C483;
+}
+.explica{
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    top: 0;
+}
+.explica h2{
+    color: #FFFFFF;
+    font-size: 15px;
+}
